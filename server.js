@@ -25,7 +25,7 @@ app.use(bodyParser.json());
 app.use('/', router);
 app.get("/",(req,res) => {
   
-  res.json({mesage:"Bienvenido Estudiante Jonatan Ajanel Gonzalez al primer examen de Desarrollo Web"});
+  res.json({mesage:"Bienvenido Estudiante Jonatan Ajanel Gonzalez al nuevo server de render"});
 })
 
 // Creando el servidor para consumir la API
